@@ -1,0 +1,50 @@
+
+---Downloaded files---
+The import files for: Seodo Demo Import were successfully downloaded!
+Initial max execution time = 60
+Files info:
+Site URL = http://agrosa.loc
+Data file = E:\MySite\taras\agrosa.loc/wp-content/uploads/2021/05/demo-content-import-file_2021-05-27__04-05-56.xml
+Widget file = E:\MySite\taras\agrosa.loc/wp-content/uploads/2021/05/demo-widgets-import-file_2021-05-27__04-05-56.json
+Customizer file = not defined!
+Redux files:
+not defined!
+
+---Importing widgets---
+Aside Bar : 
+
+HTML-код - No Title - Imported
+
+Sidebar : 
+
+Поиск - No Title - Widget already exists
+Свежие записи - No Title - Widget already exists
+Свежие комментарии - No Title - Widget already exists
+Архивы - No Title - Widget already exists
+Рубрики - No Title - Widget already exists
+Мета - No Title - Widget already exists
+
+Footer 1 : 
+
+HTML-код - No Title - Imported
+
+Footer 2 : 
+
+Форма регистрации MailChimp - OUR NEWSLETTER! - Imported
+
+Footer 3 : 
+
+HTML-код - WILD PLANTS - Imported
+
+Footer 4 : 
+
+HTML-код - NATURE REZERVES - Imported
+
+Footer 5 : 
+
+HTML-код - CONTACT INFO - Imported
+
+
+
+---ocdi/after_import---
+
