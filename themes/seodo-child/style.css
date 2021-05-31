@@ -3,9 +3,6 @@ Theme Name: Child Theme Seodo
 Template: seodo
 */
 
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2747.9738135364228!2d30.750362315494762!3d46.46902667385364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c6317af4b17ec9%3A0xa89b715f3e532790!2z0LLRg9C70LjRhtGPINCb0LXQvtC90YLQvtCy0LjRh9CwLCAxNiwg0J7QtNC10YHQsCwg0J7QtNC10YHRjNC60LAg0L7QsdC70LDRgdGC0YwsIDY1MDAw!5e0!3m2!1sru!2sua!4v1622481379874!5m2!1sru!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-
 @import url("../seodo/style.css");
 
 @font-face {
