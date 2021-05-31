@@ -82,7 +82,7 @@
     loop: 'true',
     touchRatio: 0,
     autoplay: {
-      delay: 3500,
+      delay: 6000,
       disableOnInteraction: false,
     },
     navigation: {

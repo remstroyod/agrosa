@@ -1,0 +1,78 @@
+/*
+Theme Name: Child Theme Seodo
+Template: seodo
+*/
+
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2747.9738135364228!2d30.750362315494762!3d46.46902667385364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c6317af4b17ec9%3A0xa89b715f3e532790!2z0LLRg9C70LjRhtGPINCb0LXQvtC90YLQvtCy0LjRh9CwLCAxNiwg0J7QtNC10YHQsCwg0J7QtNC10YHRjNC60LAg0L7QsdC70LDRgdGC0YwsIDY1MDAw!5e0!3m2!1sru!2sua!4v1622481379874!5m2!1sru!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+@import url("../seodo/style.css");
+
+@font-face {
+    font-family: 'schularegular';
+    src: url('fonts/schula/schula-webfont.eot');
+    src: url('fonts/schula/schula-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/schula/schula-webfont.woff2') format('woff2'),
+    url('fonts/schula/schula-webfont.woff') format('woff'),
+    url('fonts/schula/schula-webfont.ttf') format('truetype'),
+    url('fonts/schula/schula-webfont.svg#schularegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+input[type="submit"],
+input[type="button"],
+button[type="button"],
+button[type="submit"],
+.side-widget .widget-title,
+.header .main-slider .swiper-slide .slide-inner h1,
+.header .main-slider .swiper-slide .slide-inner a,
+.page-header .container h2,
+.custom-button,
+.section-title h2,
+.side-slider .note-box,
+.side-content h2,
+.side-content h5,
+.side-content h6,
+.side-image .big-note-box h4,
+.text-box h2,
+.image-content-box h5,
+.image-caption-box .content h5,
+.image-title-box figcaption h4,
+.carousel-image-box .content h5,
+.counter-box .odometer,
+.icon-box .content h6,
+.side-work-box .content h3,
+.side-content-image-box .content h4,
+.experts-slider figure figcaption h5,
+.accordion .card .card-header a,
+.services-list-box h6,
+.services-list-box h2,
+.cd-horizontal-timeline .title,
+.cd-horizontal-timeline .events a,
+.cd-horizontal-timeline .events-content ol li h2,
+.latest-news h4,
+.years-box span,
+.testimonial .infos h6,
+.highlight-slider .swiper-slide .container h2,
+.blog-post .post-content .post-title,
+.blog-post .post-content h5,
+.sidebar .widget-title,
+.footer .widget-title,
+[input="text"]{
+    font-family: 'schularegular';
+}
+
+.topbar .text:before {
+    display: none;
+}
+.navbar .site-menu ul.dropdown li a {
+    color: #000;
+}
+input[type="submit"],
+input[type="button"],
+button[type="button"],
+button[type="submit"] {
+    color: #000;
+    font-family: "Montserrat";
+}

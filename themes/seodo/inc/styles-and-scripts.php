@@ -7,7 +7,7 @@ if ( !function_exists( 'seodo_google_fonts_url' ) ) {
    */
   function seodo_google_fonts_url() {
 
-    wp_enqueue_style( 'seodo_google_fonts', 'https://fonts.googleapis.com/css?family=Poppins:400,600,800', false );
+    wp_enqueue_style( 'seodo_google_fonts', 'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap', false );
   }
 
   add_action( 'wp_enqueue_scripts', 'seodo_google_fonts_url' );
@@ -31,7 +31,7 @@ if ( !function_exists( 'seodo_enqueue_styles_and_scripts' ) ) {
     wp_enqueue_style( 'swiper', get_template_directory_uri() . '/css/swiper.min.css' );
     wp_enqueue_style( 'odometer', get_template_directory_uri() . '/css/odometer.min.css' );
     wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css' );
-    wp_enqueue_style( 'seodo-main-style', get_template_directory_uri() . '/css/style.css' );
+    wp_enqueue_style( 'seodo-main-style', get_template_directory_uri() . '/css/style.css', '', '1.7' );
     wp_enqueue_style( 'seodo-stylesheet', get_stylesheet_uri() );
     wp_add_inline_style( 'seodo-stylesheet', seodo_dynamic_css() );
 

@@ -64,12 +64,20 @@ theme.
 
 */
 @font-face {
-  font-family: 'Oduda';
-  src: url("../fonts/Oduda-Bold.eot");
-  src: url("../fonts/Oduda-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Oduda-Bold.woff2") format("woff2"), url("../fonts/Oduda-Bold.woff") format("woff"), url("../fonts/Oduda-Bold.ttf") format("truetype"), url("../fonts/Oduda-Bold.svg#Oduda-Bold") format("svg");
-  font-weight: bold;
+  font-family: 'coiny_2.0regular';
+  src: url('../fonts/coiny/coiny-webfont.eot');
+  src: url('../fonts/coiny/coiny-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/coiny/coiny-webfont.woff2') format('woff2'),
+  url('../fonts/coiny/coiny-webfont.woff') format('woff'),
+  url('../fonts/coiny/coiny-webfont.ttf') format('truetype'),
+  url('../fonts/coiny/coiny-webfont.svg#coiny_2.0regular') format('svg');
+  font-weight: normal;
   font-style: normal;
+
 }
+
+
+
 /* BODY */
 * {
   outline: none !important;
@@ -78,7 +86,7 @@ theme.
 body {
   margin: 0;
   padding: 0;
-  font-family: "Poppins";
+  font-family: "Montserrat";
   font-size: 17px;
   color: #212529;
 }
@@ -110,7 +118,7 @@ input[type="submit"], input[type="button"], button[type="button"], button[type="
   color: #fff;
   font-weight: 800;
   padding: 0 50px;
-  font-family: "Oduda";
+  font-family: 'coiny_2.0regular';
   font-size: 15px;
   border-radius: 4px;
 }
@@ -506,7 +514,7 @@ a:hover {
   margin-bottom: 15px;
   border-bottom: 4px solid #fbc50b;
   font-size: 20px;
-  font-family: "Oduda";
+  font-family: 'coiny_2.0regular';
   padding-bottom: 5px;
 }
 .side-widget .address {
@@ -902,7 +910,7 @@ a:hover {
   width: 100%;
   display: block;
   font-size: 80px;
-  font-family: "Oduda";
+  font-family: 'coiny_2.0regular';
   margin-bottom: 10px;
 }
 .header .main-slider .swiper-slide .slide-inner p {
@@ -920,7 +928,7 @@ a:hover {
   border-radius: 6px;
   background: #fbc50b;
   color: #000;
-  font-family: "Oduda";
+  font-family: 'coiny_2.0regular';
   font-size: 15px;
   -webkit-transition: all .35s ease-in-out;
   -moz-transition: all .35s ease-in-out;
@@ -1025,7 +1033,7 @@ a:hover {
   width: 100%;
   display: block;
   font-size: 100px;
-  font-family: "Oduda";
+  font-family: 'coiny_2.0regular';
 }
 .page-header .container p {
   width: 100%;
@@ -1112,7 +1120,7 @@ a:hover {
   border-radius: 6px;
   background: #fbc50b;
   color: #000;
-  font-family: "Oduda";
+  font-family: 'coiny_2.0regular';
   -webkit-transition: all .35s ease-in-out;
   -moz-transition: all .35s ease-in-out;
   -ms-transition: all .35s ease-in-out;
@@ -1158,7 +1166,7 @@ a:hover {
   width: 100%;
   display: block;
   font-size: 50px;
-  font-family: "Oduda";
+  font-family: 'coiny_2.0regular';
 }
 .section-title p {
   margin-top: 30px;
@@ -1204,7 +1212,7 @@ a:hover {
   bottom: 100px;
   z-index: 1;
   color: #009a4e;
-  font-family: "Oduda";
+  font-family: 'coiny_2.0regular';
   font-size: 30px;
   padding: 20px 30px;
   line-height: 1.2;
@@ -1237,17 +1245,17 @@ a:hover {
 .side-content h2 {
   font-size: 80px;
   color: #009a4e;
-  font-family: "Oduda";
+  font-family: 'coiny_2.0regular';
 }
 .side-content h5 {
   font-size: 36px;
   color: #009a4e;
-  font-family: "Oduda";
+  font-family: 'coiny_2.0regular';
   margin-bottom: 30px;
 }
 .side-content h6 {
   font-size: 36px;
-  font-family: "Oduda";
+  font-family: 'coiny_2.0regular';
   margin-bottom: 30px;
 }
 .side-content p {
@@ -1329,7 +1337,7 @@ a:hover {
   width: 100%;
   display: block;
   font-size: 26px;
-  font-family: "Oduda";
+  font-family: 'coiny_2.0regular';
   margin-bottom: 20px;
 }
 .side-image .big-note-box p {
@@ -1352,7 +1360,7 @@ a:hover {
 .text-box h2 {
   display: block;
   font-size: 50px;
-  font-family: "Oduda";
+  font-family: 'coiny_2.0regular';
   margin-bottom: 20px;
 }
 .text-box p {
@@ -1403,7 +1411,7 @@ a:hover {
   margin-bottom: 20px;
   font-size: 36px;
   color: #009a4e;
-  font-family: "Oduda";
+  font-family: 'coiny_2.0regular';
 }
 .image-content-box figure {
   width: 100%;
@@ -1462,7 +1470,7 @@ a:hover {
   width: 100%;
   display: block;
   margin-bottom: 20px;
-  font-family: "Oduda";
+  font-family: 'coiny_2.0regular';
   font-size: 32px;
 }
 .image-caption-box .content p {
@@ -1493,7 +1501,7 @@ a:hover {
   width: 100%;
   display: block;
   margin: 0;
-  font-family: "Oduda";
+  font-family: 'coiny_2.0regular';
   font-size: 36px;
 }
 .image-title-box figcaption h4 a {
@@ -1539,7 +1547,7 @@ a:hover {
   width: 100%;
   display: block;
   margin-bottom: 20px;
-  font-family: "Oduda";
+  font-family: 'coiny_2.0regular';
   font-size: 22px;
 }
 .carousel-image-box .content p {
@@ -1570,7 +1578,7 @@ a:hover {
   display: block;
   font-size: 90px;
   color: #009a4e;
-  font-family: "Oduda";
+  font-family: 'coiny_2.0regular';
   line-height: 1;
   margin-bottom: 20px;
 }
@@ -1633,7 +1641,7 @@ a:hover {
   width: 100%;
   display: block;
   font-size: 26px;
-  font-family: "Oduda";
+  font-family: 'coiny_2.0regular';
 }
 .icon-box .content p {
   display: block;
@@ -1736,7 +1744,7 @@ a:hover {
   display: block;
   margin-bottom: 20px;
   font-size: 34px;
-  font-family: "Oduda";
+  font-family: 'coiny_2.0regular';
 }
 .side-work-box .content p {
   margin: 0;
@@ -1773,7 +1781,7 @@ a:hover {
 .side-content-image-box .content h4 {
   display: block;
   font-size: 30px;
-  font-family: "Oduda";
+  font-family: 'coiny_2.0regular';
   color: #009a4e;
   margin-bottom: 20px;
 }
@@ -1831,7 +1839,7 @@ a:hover {
   width: 100%;
   display: block;
   font-size: 26px;
-  font-family: "Oduda";
+  font-family: 'coiny_2.0regular';
   margin-bottom: 5px;
 }
 .experts-slider figure figcaption small {
@@ -1909,7 +1917,7 @@ a:hover {
   float: left;
   padding: 20px 25px;
   color: #fff;
-  font-family: "Oduda";
+  font-family: 'coiny_2.0regular';
   font-size: 20px;
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
@@ -1982,7 +1990,7 @@ a:hover {
 }
 .services-list-box h6 {
   font-size: 26px;
-  font-family: "Oduda";
+  font-family: 'coiny_2.0regular';
   margin-bottom: 15px;
 }
 .services-list-box h5 {
@@ -1994,7 +2002,7 @@ a:hover {
 }
 .services-list-box h2 {
   font-size: 50px;
-  font-family: "Oduda";
+  font-family: 'coiny_2.0regular';
   color: #009a4e;
   line-height: 1;
   margin-bottom: 20px;
@@ -2041,7 +2049,7 @@ a:hover {
   display: block;
   margin-bottom: 50px;
   color: #fff;
-  font-family: "Oduda";
+  font-family: 'coiny_2.0regular';
   font-size: 50px;
 }
 .cd-horizontal-timeline .events {
@@ -2058,7 +2066,7 @@ a:hover {
 .cd-horizontal-timeline .events a {
   font-size: 19px;
   color: #fff;
-  font-family: "Oduda";
+  font-family: 'coiny_2.0regular';
 }
 .cd-horizontal-timeline .events a:hover {
   text-decoration: none;
@@ -2169,7 +2177,7 @@ a:hover {
 }
 .cd-horizontal-timeline .events-content ol li h2 {
   font-size: 28px;
-  font-family: "Oduda";
+  font-family: 'coiny_2.0regular';
   margin-bottom: 20px;
 }
 .cd-horizontal-timeline .events-content ol li p {
@@ -2245,7 +2253,7 @@ a:hover {
   width: 100%;
   display: block;
   margin-bottom: 20px;
-  font-family: "Oduda";
+  font-family: 'coiny_2.0regular';
   font-size: 28px;
 }
 .latest-news p {
@@ -2269,7 +2277,7 @@ a:hover {
   display: block;
   font-size: 250px;
   line-height: 1;
-  font-family: "Oduda";
+  font-family: 'coiny_2.0regular';
   color: white;
   background: url(../images/years-mask-image.jpg) no-repeat center;
   -webkit-background-clip: text;
@@ -2345,7 +2353,7 @@ a:hover {
 .testimonial .infos h6 {
   display: block;
   font-size: 30px;
-  font-family: "Oduda";
+  font-family: 'coiny_2.0regular';
 }
 
 /* HIGHLIGHT SLIDER */
@@ -2384,7 +2392,7 @@ a:hover {
 .highlight-slider .swiper-slide .container h2 {
   display: block;
   font-size: 60px;
-  font-family: "Oduda";
+  font-family: 'coiny_2.0regular';
   margin-bottom: 40px;
 }
 .highlight-slider .custom-pagination {
@@ -2485,7 +2493,7 @@ a:hover {
   width: 100%;
   display: block;
   margin-bottom: 20px;
-  font-family: "Oduda";
+  font-family: 'coiny_2.0regular';
   font-size: 38px;
 }
 .blog-post .post-content .full-image {
@@ -2505,7 +2513,7 @@ a:hover {
   color: #fff;
 }
 .blog-post .post-content h5 {
-  font-family: "Oduda";
+  font-family: 'coiny_2.0regular';
   font-size: 20px;
 }
 .blog-post .post-content ul {
@@ -2535,7 +2543,7 @@ a:hover {
   font-size: 24px;
   font-weight: 800;
   color: #009a4e !important;
-  font-family: "Oduda";
+  font-family: 'coiny_2.0regular';
   padding-top: 10px;
   padding-bottom: 30px;
   margin-bottom: 20px;
@@ -2769,7 +2777,7 @@ a:hover {
   margin-bottom: 25px;
   border-bottom: 4px solid #fbc50b;
   font-size: 20px;
-  font-family: "Oduda";
+  font-family: 'coiny_2.0regular';
   padding-bottom: 5px;
 }
 .footer .footer-menu {
@@ -6484,4 +6492,9 @@ table tr td {
 
 .related.products .products.columns-3 {
   padding-left: 0;
+}
+
+
+[input="text"] {
+  font-family: 'coiny_2.0regular';
 }
